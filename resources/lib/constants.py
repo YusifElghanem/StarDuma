@@ -1,6 +1,5 @@
-BASE_URL = "https://watch.stardima.com/watch"
-TVSHOWS_URL = f"{BASE_URL}/tvshows/"
-REQUEST_TIMEOUT = 15
+SITE_ROOT = "https://stardima-zk.cartoon.com.im"
+REQUEST_TIMEOUT = 20
 
 DEFAULT_HEADERS = {
     "User-Agent": (
@@ -8,5 +7,5 @@ DEFAULT_HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
+    "Accept-Language": "ar,en-US;q=0.9,en;q=0.8",
 }
